@@ -3,5 +3,7 @@ import Header from './views/Dashboard/header.vue'
 </script>
 
 <template>
-  <Header></Header>
+  <div class="app">
+    <Header></Header>
+  </div>
 </template>

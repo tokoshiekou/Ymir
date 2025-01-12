@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "Vue.volar",
-    "sdras.vue-vscode-snippets"
+    "sdras.vue-vscode-snippets",
+    "hollowtree.vue-snippets"
   ]
 }
