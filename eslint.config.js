@@ -37,7 +37,7 @@ export default [
       },
     },
   },
-  /** import prettier setting rules */
+  /** import prettier's setting rules */
   {
     rules: {
       ...prettier.rules,

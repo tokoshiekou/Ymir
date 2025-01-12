@@ -1,0 +1,76 @@
+/* Default margins are removed */
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+/* Headings are unstyled */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Images are block-level */
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+}
+
+/* Border styles are reset globally */
+*,
+::before,
+::after {
+  border-width: 0;
+  border-style: solid;
+  border-color: theme('borderColor.DEFAULT', currentColor);
+}
+
+/* Hidden scroll bar */
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hidden {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+}
+
+/* Custom scroll bar */
+/* 自定義滾動條樣式 */
+.scroll-container::-webkit-scrollbar {
+  width: 4px; /* 設置滾動條寬度 */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3); /* 設置滾動條顏色 */
+  border-radius: 8px; /* 圓角效果 */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background-color: transparent; /* 滾動條背景透明 */
+}

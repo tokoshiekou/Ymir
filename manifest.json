@@ -4,11 +4,11 @@
   "description": "",
   "version": "0.0.1",
   "icons": {
-    "16": "public/vite.svg"
+    "16": "vite.svg"
   },
   "action": {
     "default_popup": "index.html",
-    "16": "public/vite.svg"
+    "16": "vite.svg"
   },
   "host_permissions": [
     "<all_urls>"
